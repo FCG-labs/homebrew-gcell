@@ -2,7 +2,7 @@ cask "gcell" do
   version "1.0.0"
   sha256 "0285f2df6f983c8ddaf69381ffc489744efdc07f28360aa5575f0ae669e67a00"
 
-  url "https://gcell-relay.develop-fcg.workers.dev/dl/gcell-#{version}.zip"
+  url "https://github.com/FCG-labs/homebrew-gcell/releases/download/v#{version}/gcell-#{version}.zip"
   name "gcell"
   desc "Menu bar companion that relays AI coding agent sessions to a phone"
   homepage "https://github.com/FCG-labs/homebrew-gcell"
