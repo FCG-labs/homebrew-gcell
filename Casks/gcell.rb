@@ -1,6 +1,6 @@
 cask "gcell" do
-  version "1.0.0"
-  sha256 "0285f2df6f983c8ddaf69381ffc489744efdc07f28360aa5575f0ae669e67a00"
+  version "1.0.1"
+  sha256 "8c387a039abcbb53c459f314d08d159aa2af49039a8a1cea94bbdb0d3ddfe361"
 
   url "https://github.com/FCG-labs/homebrew-gcell/releases/download/v#{version}/gcell-#{version}.zip"
   name "gcell"
@@ -24,7 +24,6 @@ cask "gcell" do
   uninstall quit: "software.lim.gcell"
 
   zap trash: [
-    "~/.claude-limit",
     "~/.gcell",
     "~/Library/Caches/software.lim.gcell",
     "~/Library/HTTPStorages/software.lim.gcell",
